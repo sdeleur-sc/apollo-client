@@ -1,5 +1,13 @@
 # @apollo/client
 
+## 3.7.16
+
+### Patch Changes
+
+- [#10807](https://github.com/apollographql/apollo-client/pull/10807) [`b32369592`](https://github.com/apollographql/apollo-client/commit/b3236959269ce27b18b8c2cae72106098a3ba1b8) Thanks [@phryneas](https://github.com/phryneas)! - `PersistedQueryLink` will now also check for error codes in `extensions`.
+
+- [#10962](https://github.com/apollographql/apollo-client/pull/10962) [`772cfa3cb`](https://github.com/apollographql/apollo-client/commit/772cfa3cb563dccee878177e58c8250c4e5b5013) Thanks [@jerelmiller](https://github.com/jerelmiller)! - Remove `useGETForQueries` option in `BatchHttpLink.Options` type since it is not supported.
+
 ## 3.7.15
 
 ### Patch Changes
